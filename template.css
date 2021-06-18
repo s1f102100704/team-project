@@ -1,0 +1,12 @@
+
+table{
+    font-size:70px;
+}
+th{
+    background-color: #000000;
+    color:white
+}
+td{
+    background-color: #cccccc;
+    color:white;
+}
