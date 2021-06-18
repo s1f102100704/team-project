@@ -1,18 +1,23 @@
 
 h1{
-    color:white;
     text-align:center;
     font-size:48px;
 }
+h2{
+	border-bottom:solid #A9BCE2;
+}
+h3{
+	border-left:solid#A9BCE2;
+}
 .x{
-    background-color: #1B2538;
+    background-color: #EEDDBB;
+	color:#A9BCE2;
 }
 ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #1B2538;
 }
 li {
 	float: left;
@@ -23,7 +28,6 @@ li:last-child {
 }
 li a {
 	display: block;
-	color: white;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -34,4 +38,5 @@ li a:hover:not(.active) {
 }
 .active {
     padding-left:20%;
+	background-color: #DA3C41;
 }
