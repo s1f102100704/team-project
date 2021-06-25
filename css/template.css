@@ -19,20 +19,20 @@ ul {
 	padding: 0;
 	overflow: hidden;
 }
-li {
+.menu {
 	float: left;
 	width:20%;
 }
-li:last-child {
+.menu:last-child {
 	border-right: none;
 }
-li a {
+.menu a {
 	display: block;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 }
-li a:hover:not(.active) {
+.menu a:hover:not(.active) {
 	background-color: #A9BCE2;
     
 }
