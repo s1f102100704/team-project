@@ -1,0 +1,54 @@
+h1{
+	margin-left:10%;
+    font-size:48px;
+}
+#menu {
+	background-color: #D4ECEA;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.menu {
+	float: left;
+	padding-right:7%;
+}
+.menu:last-child {
+	border-right: none;
+}
+.menu a {
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.menu a:hover:not(.active) {
+	background-color: #A9BCE2;
+}
+#home{
+	padding-left:10%;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    flex-basis: 100%;
+}
+
+.image-wrap{
+    position: relative;
+    overflow: hidden;
+    padding-top: 60%;
+    margin: 10px 5px;
+}
+
+.image-wrap img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+}
