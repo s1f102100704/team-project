@@ -3,17 +3,25 @@
 	margin-left:10%;
 	margin-right:10%;
 }
+p{
+	font-size:20px;
+}
 
 h1{
 	margin-left:10%;
     font-size:48px;
 }
 h2{
+	font-size:36px;
 	border-bottom:solid #A9BCE2;
 }
 h3{
+	font-size:24px;
 	border-left:solid#A9BCE2;
 	padding-left:4px;
+}
+h4{
+	font-size:20px;
 }
 #index{
 	border:solid green;
@@ -80,4 +88,7 @@ h3{
 	left: 0;
 	margin: auto;
 	text-align: center;
+}
+.photo{
+	padding-left:40%;
 }
