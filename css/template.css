@@ -90,5 +90,38 @@ h4{
 	text-align: center;
 }
 .photo{
-	padding-left:40%;
+	background:#000;
+}
+
+.black{
+	color:white;
+	position:absolute;
+	top:40%;
+	left:30%;
+}
+#black1{
+    opacity:0;
+}
+#black2{
+    opacity:0;
+}
+#black3{
+    opacity:0;
+}
+#black4{
+    opacity:0;
+}
+
+.image-wrap{
+	position:relative;
+	margin-left:40%;
+    position: relative;
+    overflow: hidden;
+	background:#000;
+	width:250px;
+	height:180px;
+}
+img:hover{
+	opacity:0.6;
+	transition-duration:0.3s;
 }
