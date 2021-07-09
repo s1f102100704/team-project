@@ -1,29 +1,34 @@
-
-#content{
-	margin-left:10%;
-	margin-right:10%;
-}
-p{
-	font-size:20px;
+#content {
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
-h1{
-	margin-left:10%;
-    font-size:48px;
+p {
+	font-size: 20px;
 }
-h2{
-	font-size:36px;
-	border-bottom:solid #A9BCE2;
+
+h1 {
+	margin-left: 10%;
+	font-size: 48px;
 }
-h3{
-	font-size:24px;
-	border-left:solid#A9BCE2;
-	padding-left:4px;
+
+h2 {
+	font-size: 36px;
+	border-bottom: solid #A9BCE2;
 }
-h4{
-	font-size:20px;
+
+h3 {
+	font-size: 24px;
+	border-left: solid#A9BCE2;
+	padding-left: 4px;
 }
+
+h4 {
+	font-size: 20px;
+}
+
 #index{
+	border:solid green;
 	border:solid 0.2px #A9BCE2;
 }
 #index p{
@@ -40,6 +45,7 @@ h4{
 	color:#A9BCE2;
 	text-decoration: none;
 }
+
 #menu {
 	background-color: #D4ECEA;
 	list-style-type: none;
@@ -47,30 +53,36 @@ h4{
 	padding: 0;
 	overflow: hidden;
 }
-#home{
-	padding-left:10%;
+
+#home {
+	padding-left: 10%;
 }
-#sports_equipment{
-	padding-right:10%;
+
+#sports_equipment {
+	padding-right: 10%;
 }
+
 .menu {
 	float: left;
-	padding-right:7%;
+	padding-right: 7%;
 }
+
 .menu:last-child {
 	border-right: none;
 }
+
 .menu a {
 	display: block;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 }
+
 .menu a:hover:not(.active) {
 	background-color: #A9BCE2;
 }
 
-#page_top{
+#page_top {
 	width: 50px;
 	height: 50px;
 	position: fixed;
@@ -80,14 +92,16 @@ h4{
 	opacity: 0.6;
 	border-radius: 50%;
 }
-#page_top a{
+
+#page_top a {
 	position: relative;
 	display: block;
 	width: 50px;
 	height: 50px;
 	text-decoration: none;
 }
-#page_top a::before{
+
+#page_top a::before {
 	font-family: 'Font Awesome 5 Free';
 	font-weight: 900;
 	content: '\f106';
@@ -103,39 +117,7 @@ h4{
 	margin: auto;
 	text-align: center;
 }
-.photo{
-	background:#000;
-}
 
-.black{
-	color:white;
-	position:absolute;
-	top:40%;
-	left:30%;
-}
-#black1{
-    opacity:0;
-}
-#black2{
-    opacity:0;
-}
-#black3{
-    opacity:0;
-}
-#black4{
-    opacity:0;
-}
-
-.image-wrap{
-	position:relative;
-	margin-left:40%;
-    position: relative;
-    overflow: hidden;
-	background:#000;
-	width:250px;
-	height:180px;
-}
-img:hover{
-	opacity:0.6;
-	transition-duration:0.3s;
+.photo {
+	padding-left: 40%;
 }
