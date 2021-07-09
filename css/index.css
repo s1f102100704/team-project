@@ -1,9 +1,21 @@
+body{
+	overflow:hidden;
+}
 h1{
 	margin-left:10%;
     font-size:48px;
 }
 #x{
 	padding-bottom:20px;
+}
+span a{
+	transition:0.3s;
+    transition: color 0.3s;
+}
+span a:hover{
+	background-color:#E3B4AA;
+	color:white;
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .5);
 }
 #menu {
 	background-color: #D4ECEA;
@@ -24,9 +36,6 @@ h1{
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-}
-.menu a:hover:not(.active) {
-	background-color: #A9BCE2;
 }
 #home{
 	padding-left:10%;
@@ -89,11 +98,39 @@ img:hover{
 	transition-duration:0.3s;
 }
 footer div{
+    flex-basis: 100%;
+
+	position:absolute;
+	overflow:hidden;
 	margin-top:40px;
 	width:100%;
 	height:80px;
 	background-color: #D4ECEA;
 }
-footer p{
-	margin:0px;
+footer a{
+	overflow:hidden;
+	width:60px;
+	height:60px;
+	border-radius: 50%;
+}
+footer .twitter{
+	overflow:hidden;
+	margin-left:30%;
+	background-color: white;
+	width:60px;
+	height:60px;
+}
+footer .gmail{
+	overflow:hidden;
+    margin-left:40%;
+	background-color: white;
+	width:60px;
+	height:60px;
+}
+footer img{
+	overflow:hidden;
+	padding-top:10px;
+	padding-top:10px;
+	width:60px;
+	height:60px;
 }
