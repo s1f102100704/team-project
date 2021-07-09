@@ -2,12 +2,23 @@
 	margin-left: 10%;
 	margin-right: 10%;
 }
+span a{
+	transition:0.3s;
+    transition: color 0.3s;
+}
+span a:hover{
+	background-color:#E3B4AA;
+	color:white;
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .5);
+}
 
 p {
 	font-size: 20px;
 }
 
 h1 {
+	margin:0;
+	height: 92px;
 	margin-left: 10%;
 	font-size: 48px;
 }
@@ -28,7 +39,6 @@ h4 {
 }
 
 #index{
-	border:solid green;
 	border:solid 0.2px #A9BCE2;
 }
 #index p{
@@ -78,9 +88,7 @@ h4 {
 	text-decoration: none;
 }
 
-.menu a:hover:not(.active) {
-	background-color: #A9BCE2;
-}
+
 
 #page_top {
 	width: 50px;
