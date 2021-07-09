@@ -117,6 +117,9 @@ h4 {
 	margin: auto;
 	text-align: center;
 }
+#page_top:hover{
+	box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+}
 
 .photo {
 	background:#000;
@@ -154,3 +157,4 @@ h4 {
 img:hover{
 	opacity:0.6;
 	transition-duration:0.3s;
+}
